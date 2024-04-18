@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/question1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".Question1Activity">
+
+    <TextView
+        android:id="@+id/readingtitletxt"
+        style="@style/PurpleBigTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Reading Comprehension" />
+
+    <TextView
+        android:id="@+id/readingsubtxt"
+        style="@style/SmallBlackTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Read The Following Paragraph and answer some questions:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/paragraphtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="@string/reading_paragraph"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/readingq1txt"
+        style="@style/QuestionTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:text="@string/question1"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/readingq1tspinner"
+        style="@style/WhiteBackgroundStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp" />
+
+    <TextView
+        android:id="@+id/readingq2txt"
+        style="@style/QuestionTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:text="@string/question2"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/readingq2spinner"
+        style="@style/WhiteBackgroundStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp" />
+
+    <TextView
+        android:id="@+id/readingq3txt"
+        style="@style/QuestionTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:text="@string/question3"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/readingq3spinner"
+        style="@style/WhiteBackgroundStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp" />
+
+    <Button
+        android:id="@+id/readingsubmitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

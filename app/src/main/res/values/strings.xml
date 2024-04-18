@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SchoolWorkApp (Assignment1)</string>
+    <!-- Questions and Choices for the Reading Comprehension -->
+    <string name="question1">What is the primary topic of the paragraph?                  </string>
+    <string-array name="question1_choices">
+        <item>a) Coral reefs</item>
+        <item>b) The Sahara Desert</item>
+        <item>c) The Amazon rainforest</item>
+        <item>d) The Arctic tundra</item>
+    </string-array>
+    <string name="question1_answer">c) The Amazon rainforest</string>
+
+    <string name="question2">Which of the following best describes the Amazon rainforest?</string>
+    <string-array name="question2_choices">
+        <item>a) A barren wasteland</item>
+        <item>b) A dense ecosystem with abundant life</item>
+        <item>c) A vast expanse of ice</item>
+        <item>d) A barren desert</item>
+    </string-array>
+    <string name="question2_answer">b) A dense ecosystem with abundant life</string>
+
+    <string name="question3">What provides shelter for various creatures in the Amazon rainforest?</string>
+    <string-array name="question3_choices">
+        <item>a) Rocky outcrops</item>
+        <item>b) Underground burrows</item>
+        <item>c) Towering trees</item>
+        <item>d) Sand dunes</item>
+    </string-array>
+    <string name="question3_answer">c) Towering trees</string>
+
+    <!-- Reading Comprehension Paragraph -->
+    <string name="reading_paragraph">In the heart of the Amazon rainforest, a diverse ecosystem thrives with an abundance of plant and animal species. Towering trees provide shelter for a myriad of creatures, from colorful birds to elusive jaguars. The dense foliage teems with life, where monkeys swing from branch to branch and insects buzz in the humid air. Beneath the canopy, crystal-clear streams meander through the undergrowth, sustaining life for amphibians and fish alike. The Amazon is not only a vital source of biodiversity but also plays a crucial role in regulating the Earth\'s climate.</string>
+
+
+</resources>

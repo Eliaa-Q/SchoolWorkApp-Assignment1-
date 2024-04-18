@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".QuestionsMenuActivity">
+
+    <TextView
+        android:id="@+id/welcometxt"
+        style="@style/PurpleBigTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="35dp"
+        android:paddingRight="10dp"
+        android:text="WELCOME!! "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choosetxt"
+        style="@style/SmallBlackTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="50dp"
+        android:text="Choose one of the Questions For Unit 1" />
+
+    <Button
+        android:id="@+id/act1btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Reading Comprehension"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/mark1txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:text="Mark is:"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/act2btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Grammer Understanding"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/mark2txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="10dp"
+        android:paddingBottom="80dp"
+        android:text="Mark is:"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/donebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#576C43"
+        android:fontFamily="@font/archivo_black"
+        android:text="DONE"
+        app:cornerRadius="5dp"
+        app:strokeColor="#AE834E" />
+
+    <TextView
+        android:id="@+id/finalresutltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/SmallBlackTextStyle"
+        android:paddingTop="50dp"
+        android:text="Final Mark is:" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
